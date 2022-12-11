@@ -68,7 +68,7 @@ jsproxy_config({
   // assets_cdn: 'https://cdn.jsdelivr.net/gh/zjcqoo/zjcqoo.github.io@master/assets/',
 
   // 本地测试时打开，否则访问的是线上的
-  assets_cdn: 'assets/',
+  assets_cdn: 'https://hoshino.eu.org/jsproxy/__sys__/assets',
 
   // 首页路径
   index_path: 'index_v3.html',
@@ -87,9 +87,6 @@ jsproxy_config({
   url_handler: {
     'https://www.baidu.com/img/baidu_resultlogo@2.png': {
       replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
-    },
-    'https://www.pornhub.com/': {
-      redir: 'https://php.net/'
     },
     'http://haha.com/': {
       content: 'Hello World'
